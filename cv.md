@@ -2,15 +2,11 @@
 
 ## Frontend Developer
 
-====
-
 ## Contact Information
 
 **Email** maria.revtovich@gmail.com
 
 **Linkedin** https://www.linkedin.com/in/maria-revtovich/
-
-===
 
 ## Skills
 
@@ -19,14 +15,10 @@
 - Git, GitHub
 - VS Code
 
-===
-
 ## Languages
 
 - **English:** C1
 - **Russian:** Native
-
-===
 
 ## Education
 
@@ -35,8 +27,6 @@
 **Minsk State Linguistic University**
 
 Faculty of Intercultural Communication
-
-===
 
 ## Work Experience
 
