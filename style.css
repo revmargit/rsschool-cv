@@ -1,3 +1,143 @@
-h1 {
-    
+html {
+    scroll-behavior: smooth; 
+  }
+
+body {
+    max-width: 900px;
+    margin: auto;
+    padding: 0 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, 
+h2, 
+h3 {
+    color: #9a7771;
+    text-transform: uppercase;
+}
+
+h2 {
+    border-bottom: 1px solid #9a7771;
+}
+
+nav {
+    padding: 20px 20px;
+    color: white;
+    text-transform: uppercase;
+    background: #9a7771;
+}
+
+.navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    display: list-item;
+}
+
+ul {
+    list-style: none; 
+  }
+  
+.nav-links, 
+.nav-links:active {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links:hover, 
+.links:hover {
+    text-decoration: underline;
+}
+
+.links, 
+.links:active {
+    color: #9a7771;
+    text-decoration: none;
+}
+
+.bullets, 
+.education {
+    columns: 2;
+}
+  
+.bullets li::before {
+    display: inline-block;
+    content: "\2022";
+    width: 1em;
+    margin-left: -1em;
+    line-height: 1.4em;
+    color: #9a7771;
+    font-weight: bold;
+  }
+
+p {
+    line-height: 1.4em;
+}
+
+.photo {
+    margin: 20px 0;
+    border-radius: 50%;
+    border: 2px solid #9a7771 ;
+}
+
+.photo-name {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.name {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.highlight {
+    color: #9a7771;
+}
+
+pre {
+    background: rgb(186,169,155,0.2);
+    padding: 10px 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 2em;
+    color: white;
+    background: #9a7771;
+}
+
+@media (max-width: 720px) {
+    .bullets, 
+    .education {
+        columns: auto;
+    }
+
+    .photo-name {
+        flex-direction: column;
+    }
+    .name {
+        width: 100%;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    .navigation {
+        flex-direction: column;
+        row-gap: 0.5em;
+    }
 }
